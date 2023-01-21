@@ -1,0 +1,30 @@
+# Randomized-Binary-Search-Implementation
+Using the Randomized Algorithms technique, build a program in C++ that implements the Randomized Binary Search Algorithm to determine if an integer in a set of integers, using the Las Vegas Randomized Algorithm method
+
+
+Input Format
+
+The program receives an integer  to be searched in the set of integers  described in the next line.
+
+Constraints
+
+, all elements in .
+
+Output Format
+
+The output of the program will indicate in which index is the number to be searched, with the format: "The element is at the index: i", i will be the value of the index. If the data is not found, the message: "The element is not in the array" will be indicated.
+
+Sample Input 0
+
+10
+2 3 4 10 40
+Sample Output 0
+
+Element is at index: 3
+Sample Input 1
+
+11
+2 3 4 10 40
+Sample Output 1
+
+Element is not in the array
